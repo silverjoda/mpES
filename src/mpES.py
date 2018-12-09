@@ -146,8 +146,6 @@ def train_mt(params):
 
 
 env_name = "Hopper-v2"
-t1 = time.clock()
-train_st((env_name, 100, 7, False))
-t2 = time.clock()
-print("Elapsed time: {}".format(t2 - t1))
+train_mt((env_name, 100, 7, False))
+
 exit()
